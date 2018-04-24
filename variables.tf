@@ -1,0 +1,13 @@
+variable "cidr" { default = "10.20.0.0/16" }
+variable "name" { default = "staging" }
+variable "azs"  { default = [] }
+variable "az_no_private"  { default = [] }
+variable "az_no_public"  { default = [] }
+variable "az_no_db"  { default = [] }
+variable "az_no_ec"  { default = [] }
+variable "az_no_rs"  { default = [] }
+variable "private_subnets"  { default = [] }
+variable "public_subnets"  { default = [] }
+variable "database_subnets"  { default = [] }
+variable "elasticache_subnets"  { default = [] }
+variable "redshift_subnets"  { default = [] }
